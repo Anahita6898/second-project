@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+   <html dir="rtl">
+      <head>
+         <meta charset="utf-8">
+      </head> 
+      <body> 
+        <script type="text/javascript">
+         alert("calculator")
+         let op = prompt("select the operator(+,-,*,/,^)");
+
+         let a = prompt("enter first number"); 
+         let b = prompt("enter second number"); 
+         c = Number(a);
+         d = Number(b);
+         let ans; 
+         if(op == "+"){ 
+            ans=c+d;
+            alert(a+op+b+"="+ans);
+         } 
+         else if(op == "*"){ 
+            ans=c*d;
+            alert(a+op+b+"="+ans);
+         }
+         else if(op == "-"){ 
+            ans=c-d;
+            alert(a+op+b+"="+ans); 
+         }
+         else if(op == "/"){ 
+            ans=c/d;
+            alert(a+op+b+"="+ans); 
+         }
+         else if(op == "^"){ 
+            ans=Math.pow(+c,+d)
+            alert(a+op+b+"="+ans); 
+         }
+       </script>
+    </body>
+</html>
