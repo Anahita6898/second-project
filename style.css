@@ -1,0 +1,60 @@
+body{
+  background-color:#DFDFC2;
+  margin:10 auto;
+}
+h3{
+  color:#22165F;
+  padding:10px;
+  text-align:right;
+  background-color:#F2E39C;
+    
+}
+p{
+  text-align:right;
+  line-height:25px;
+}
+h4{
+  text-align:right;
+  color:#4A3F81;
+  background-color:#F2E39C;
+  
+} 
+img{
+	border-image: 12px;
+	align-items: center;
+
+}
+.culture{
+  background-color:#DFDFC2;
+  color:#000000;
+ text-align:right;
+}
+ul{
+  background-color:#808080;
+}
+h4{
+  background-color:#C0C0C0;
+ text-align:right;
+}
+.goverment{
+  background-color:#DFDFC2;
+  color:#000000;
+  text-align:right;
+}
+a:link{
+  color:#008080;
+}
+table{
+  border:3px ;
+  transform:right;
+}
+th{
+  background-color:	#808080;
+  
+}
+tr{
+  background-color:#C0C0C0;
+}
+td{
+   background-color:#C0C0C0;
+}
