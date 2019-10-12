@@ -1,0 +1,89 @@
+body{
+  background-color:#DFDFC2;
+  margin:10 auto;
+}
+.header {
+  grid-area: header;
+  background-color: #f1f1f1; 
+  text-align: center; 
+}
+.grid-container {
+  display: grid;
+  grid-template-areas: 1,2,5,6;
+}
+    
+h3{
+  color:#22165F;
+  padding:10px;
+  text-align:right;
+  background-color:#F2E39C;
+    
+}
+p{
+  text-align:right;
+  line-height:25px;
+}
+h4{
+  text-align:right;
+  color:#4A3F81;
+  background-color:#F2E39C;
+  
+} 
+img{
+	border-image: 12px;
+	align-items: center;
+
+}
+.culture{
+  background-color:#DFDFC2;
+  color:#000000;
+ text-align:right;
+}
+ul{
+  background-color:#808080;
+  float: right;
+}
+
+.menu ul
+{ float:right;
+}
+.menu li
+{ float:left;
+} 
+
+/*#rtl{
+	float: right;
+}
+*/
+h4{
+  background-color:#C0C0C0;
+ text-align:right;
+}
+.goverment{
+  background-color:#DFDFC2;
+  color:#000000;
+  text-align:right;
+}
+a:link{
+  color:#008080;
+}
+.jadval{
+	position: relative;
+	text-align: right;
+}
+
+table{
+  position: right;
+  border:3px ;
+  transform:right;
+}
+th{
+  background-color:	#808080;
+  
+}
+tr{
+  background-color:#C0C0C0;
+}
+td{
+   background-color:#C0C0C0;
+}
